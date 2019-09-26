@@ -30,6 +30,6 @@ app.get("/", requireAuth, (req, res) => {
   res.send(`Your email is ${req.user.email}`);
 });
 
-app.listen(8000, () => {
-  console.log("listening on 8000");
+app.listen(3000, () => {
+  console.log("listening on 3000");
 });
